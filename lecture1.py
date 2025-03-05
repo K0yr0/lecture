@@ -8,8 +8,10 @@ class Person:
         self.age = age
 #for greeting
     def greet(self):
-        return f"Hello, my name is {self.name} and I am {self.age} years old."
+     return f"Hello my name is {self.name} and my age is {self.age}" #writing f so it can understand the self.name and self.age
 
 # Example
-p1 = Person("Alice", 30)
+#assigning the person to p1
+p1 = Person("Kayra", 19)
+#printing the greetment
 print(p1.greet())
